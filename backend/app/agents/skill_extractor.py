@@ -21,4 +21,4 @@ def extract_skills(text: str, context: str = "resume") -> list:
     )
     chain = prompt | llm | StrOutputParser()
     skills = chain.invoke({"text": text})
-    return [s.strip() for s in skills.split(",") if s.strip()]
+    return [s.strip() for s in skills.split(",") if s.strip()]  
