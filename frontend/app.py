@@ -5,7 +5,7 @@ import pandas as pd
 
 # Page configuration
 st.set_page_config(
-    page_title="RAGruit",
+    page_title="RAGruit", 
     page_icon="📄",
     layout="wide"
 )
