@@ -1,0 +1,40 @@
+:root {
+    --red: #ff4b4b;
+    --orange: #f0ad4e;
+    --green: #5cb85c;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #f0f2f6;
+    border-radius: 10px;
+    margin: 20px 0;
+    overflow: hidden;
+    height: 30px;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+    position: relative;
+}
+
+.progress-text {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+/* Additional styling for metrics */
+[data-testid="metric-container"] {
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
