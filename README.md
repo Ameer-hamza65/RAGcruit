@@ -12,6 +12,7 @@ Dynamic RAG system for automated resume screening and ranking using Google Gemin
 - Candidate name extraction.  
 - Batch processing of resumes.  
 
+![alt text](deepseek_mermaid_20250628_086006.png)
 ## Tech Stack.  
 - **LLM**: Google Gemini Pro.  
 - **Framework**: LangGraph.  
